@@ -7,7 +7,7 @@
 }
 body {
     background-color: ;
-    padding-bottom: 20vw;
+    padding-bottom: 20%;
 
 
   } 
@@ -49,15 +49,17 @@ footer {
     background-color: rgb(86, 108, 108);
     /*height: 20vw;
     width: 100vw;*/
-    font-size: 8vw;
+    
+    font-size: 300%;
+    width: 100%;
 
   }
 nav {
     display: flex;
     justify-content: space-around ;
     align-items: center;
-    height: 20vw;
-    width: 100vw;
+    height: 20%;
+    width: 100%;
 }
 
 .ques {
@@ -84,8 +86,18 @@ a:hover{
   
 .bookmark {
     align-self: self-end;
+    /*background-color: aqua;*/
+    
+    
+    }
 
-}
+/*.bookmark:focus {
+    background-color:red;
+}*/
+
+/*.bookmark:visited {
+    background-color: blue;
+}*/
 
 button {
     width: 10vw;
