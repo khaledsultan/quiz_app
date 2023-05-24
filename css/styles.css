@@ -6,7 +6,7 @@
   margin: 0;
 }
 body {
-    background-color: ;
+    background-color:#F1F6F9 ;
     padding-bottom: 20%;
 
 
@@ -14,14 +14,16 @@ body {
 
 header {
     font-size: 50px;
-    background-color: aqua;
+    background-color: #212A3E;
     display: flex;
     justify-content: center;
     height: 100px;
     align-items: center;
+    color: #9BA4B5;
 
   }
 main {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,8 +39,9 @@ section{
     width: 80%;
     height: 200px;
     margin: 20px;
-    border:solid black;
-   
+    border-color:  #b5bac4;
+    border-style: double;
+    
     /*padding: 50px 80px;*/
     font-size: 3vw;*/
 
@@ -46,37 +49,43 @@ section{
 footer {
     position: fixed;
     bottom: 0px;
-    background-color: rgb(86, 108, 108);
+    background-color: #394867;
     /*height: 20vw;
     width: 100vw;*/
-    
     font-size: 300%;
     width: 100%;
 
   }
-nav {
+.nav {
     display: flex;
     justify-content: space-around ;
     align-items: center;
     height: 20%;
     width: 100%;
-}
+    }
 
 .ques {
 align-self: center;
+font-size: 100%;
+
     
 }
    
 ul{
     display: flex;
     gap:20px;
-
+    
 }
 
-a {
-   color: black;
-   background-color: lemonchiffon;
-    
+nav a {color:  #394867;
+   
+}
+
+ul a{
+    color: #7b818c;
+    font-size: 100%;
+   
+  
 }
 
 a:hover{
@@ -86,10 +95,15 @@ a:hover{
   
 .bookmark {
     align-self: self-end;
-    /*background-color: aqua;*/
+    background-color: #394867;
+    color:#394867;
     
     
     }
+/*.bookmark::after {
+    background-color: color:#394867 ;
+    
+}*/
 
 /*.bookmark:focus {
     background-color:red;
@@ -100,9 +114,11 @@ a:hover{
 }*/
 
 button {
-    width: 10vw;
-    height: 10vw;
+    width: 20vw;
+    height: 20vw;
     align-self: center;
+    font-size: 100%;
+    border-radius: 25%;
 
 }
 
@@ -110,3 +126,11 @@ button:hover{
     color: lemonchiffon;
     background-color: black;
 }
+
+/*.pagetwo {
+    background-color: brown;
+}
+
+.pagetwo::after {
+    background-color: blueviolet;
+}*/
