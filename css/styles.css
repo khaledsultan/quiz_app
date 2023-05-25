@@ -48,9 +48,10 @@ section{
     justify-content: space-between;
     width: 80%;
     height: 200px;
-    margin: 20px;
+    margin: 20px ;
     border-color:  #b5bac4;
     border-style: double;
+    margin-left: 10%;
     
     /*padding: 50px 80px;*/
     font-size: 3vw;*/
@@ -75,8 +76,9 @@ footer {
     }
 
 .ques {
-align-self: center;
-font-size: 100%;
+    align-self: center;
+    font-size: 100%;
+     
 
     
 }
