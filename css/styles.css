@@ -16,12 +16,22 @@ header {
     font-size: 50px;
     background-color: #212A3E;
     display: flex;
-    justify-content: center;
-    height: 100px;
+    justify-content: space-evenly;
+    height: 80px;
     align-items: center;
     color: #9BA4B5;
-
+    
   }
+
+img {
+    height: 80px;
+    
+}
+/*img .space {
+    height: 100vw;
+    width: 10%;*/
+
+}
 main {
     
     display: flex;
@@ -115,9 +125,9 @@ a:hover{
 
 button {
     width: 20vw;
-    height: 20vw;
+    height: 10vw;
     align-self: center;
-    font-size: 100%;
+    font-size: 80%;
     border-radius: 25%;
 
 }
