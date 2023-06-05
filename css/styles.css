@@ -26,12 +26,12 @@ header {
 img {
     height: 80px;
     
-}
+/* }
 /*img .space {
     height: 100vw;
     width: 10%;*/
 
-}
+} */
 main {
     
     display: flex;
@@ -54,17 +54,18 @@ section{
     margin-left: 10%;
     
     /*padding: 50px 80px;*/
-    font-size: 3vw;*/
+    font-size: 3vw;
 
 }
 footer {
     position: fixed;
-    bottom: 0px;
-    background-color: #394867;
+    bottom: 20px;
+    background-color: #F1F6F9;
     /*height: 20vw;
     width: 100vw;*/
     font-size: 300%;
     width: 100%;
+    
 
   }
 .nav {
@@ -130,8 +131,16 @@ button {
     height: 10vw;
     align-self: center;
     font-size: 80%;
-    border-radius: 25%;
-
+    border-radius: 25px;
+    display: block;
+}
+.show{
+    display: block;
+    text-align: center;
+}
+.hide {
+    display: none;
+    
 }
 
 button:hover{
@@ -139,6 +148,20 @@ button:hover{
     background-color: black;
 }
 
+
+.selected {
+    color: red ;
+    background-color: rgb(202, 18, 18);
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
 /*.pagetwo {
     background-color: brown;
 }
