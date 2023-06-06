@@ -17,16 +17,18 @@
         <head>Quiz App</head>
     </header>
     <main>
-        <div data-js="test">
+        <div id="biggerForm">
             <form data-js="form">
 
                 <label for="userQuestion">Your question</label>
                 <textarea name="userQuestion" id="userQuestion" placeholder="write a question" cols="50" rows="4"
                     required maxlength="150" data-js="userQuestion"></textarea>
+                <p></p>
 
                 <label for="userAnswer">Your answer </label>
-                <textarea name="userAnswer" id="userAnswer" placeholder="write your answer " cols="50" rows="4" required
+                <textarea name="userAnswer" id="userAnswer" placeholder="write your answer " cols="50" rows="4"
                     maxlength="150" data-js="userAnswer"></textarea>
+                <p id="text_2"></p>
 
                 <label for="tag">Tag</label>
                 <input type="text" name="tag" id="tag" data-js="userTag" />
