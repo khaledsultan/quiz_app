@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ_APP</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <script src="./script.js" defer></script> -->
+    <script src="./forms.js" defer></script>
+</head>
+
+<body>
+    <header>
+
+        <head>Quiz App</head>
+    </header>
+    <main>
+        <div data-js="test">
+            <form data-js="form">
+
+                <label for="userQuestion">Your question</label>
+                <textarea name="userQuestion" id="userQuestion" placeholder="write a question" cols="50" rows="4"
+                    required maxlength="150" data-js="userQuestion"></textarea>
+
+                <label for="userAnswer">Your answer </label>
+                <textarea name="userAnswer" id="userAnswer" placeholder="write your answer " cols="50" rows="4" required
+                    maxlength="150" data-js="userAnswer"></textarea>
+
+                <label for="tag">Tag</label>
+                <input type="text" name="tag" id="tag" data-js="userTag" />
+
+                <label for="submit"></label>
+                <button type="submit" id="submit" data-js="buttonSubmit">submit</button>
+
+
+
+
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <nav class="nav">
+            <a href="index.html">🏠</a>
+            <a href="bookmark.html" class="pagetwo">🔖</a>
+            <a href="form.html" style="background-color:black;">📝</a>
+            <a href="profile.html">🧑‍💻</a>
+        </nav>
+    </footer>
+</body>
+
+</html>

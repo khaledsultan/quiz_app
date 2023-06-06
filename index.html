@@ -7,20 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QUIZ_APP</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./script.js" defer></script>
+    <script src="./forms.js" defer></script>
 </head>
 
 <body>
-    <img src="../quiz_app/GUHx68i9ohdpdh6HdXzEA8-1024-80.jpg.webp" alt="min" />
+
     <header>
 
         <head>Quiz App</head>
         <img src="../quiz_app/200.webp" alt="min" />
+
     </header>
     <main id="home">
+        <!--<img class="space" src="../quiz_app/GUHx68i9ohdpdh6HdXzEA8-1024-80.jpg.webp" alt="space" />-->
         <section class="ques1" id="Numberone">
-            <a href="#Numberone" class="bookmark">🔖</a>
+            <a href="#Numberone" class="bookmark" data-js="bookmark">🔖</a>
             <p class="ques">Question 1?</p>
-            <button type="button">show answer</button>
+            <button type="button ">show answer</button>
+            <div class="show hide" data-js="answer">
+                answer1
+            </div>
             <ul>
                 <a href="">#hi</a>
                 <a href="">#hi2</a>
@@ -28,9 +35,9 @@
             </ul>
         </section>
         <section class="ques2" id="Numbertwo">
-            <a href="#Numbertwo" class="bookmark">🔖</a>
+            <a href="#Numbertwo" class="bookmark" data-js="bookmark">🔖</a>
             <p class="ques">Question 2?</p>
-            <button type="button">show answer</button>
+            <button type="button" data-js="button">show answer</button>
             <ul>
                 <a href="">#hi</a>
                 <a href="">#hi2</a>
@@ -38,9 +45,9 @@
             </ul>
         </section>
         <section class="ques3" id="Numberthree">
-            <a href="#Numberthree" class="bookmark">🔖</a>
+            <a href="#Numberthree" class="bookmark" data-js="bookmark">🔖</a>
             <p class="ques">Question 3?</p>
-            <button type="button">show answer</button>
+            <button type="button" data-js="button">show answer</button>
             <ul>
                 <a href="">#hi</a>
                 <a href="">#hi2</a>
@@ -53,6 +60,7 @@
         <nav class="nav">
             <a href="index.html" style="background-color:black;">🏠</a>
             <a href="bookmark.html" class="pagetwo">🔖</a>
+            <a href="form.html">📝</a>
             <a href="profile.html">🧑‍💻</a>
         </nav>
     </footer>
