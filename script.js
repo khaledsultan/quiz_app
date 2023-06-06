@@ -1,5 +1,5 @@
 
-// -------variables--------
+// -------BOOKMARK-SELECTED--------
 
 const bookmark = document.querySelector('[data-js="bookmark"]');
 bookmark.addEventListener("click", () => {
@@ -8,9 +8,9 @@ bookmark.addEventListener("click", () => {
      
 })
 
+ 
 
-
-
+// -------SHOW-ANSWER-BUTTON--------
 
 const button = document.querySelector('button');
 const answer = document.querySelector('[data-js="answer"]');
@@ -55,10 +55,10 @@ button.addEventListener("click", () => {
 
 //  -------functions--------\
 
-const hideButton = document.querySelector('[data-js="button"]');
- hideButton.addEventListener("click", () => {
-    hideButton.classList.add("hide");
-    // mainElement.classList.remove("dark");
-    // hideButton.classList.add("hide");
-  });
+// const hideButton = document.querySelector('[data-js="button"]');
+//  hideButton.addEventListener("click", () => {
+//     hideButton.classList.add("hide");
+//     // mainElement.classList.remove("dark");
+//     // hideButton.classList.add("hide");
+//   });
 
