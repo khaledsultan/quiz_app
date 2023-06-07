@@ -158,11 +158,11 @@ button:hover{
     
     
 }
-/* .profile {
-    float : left; 
-    position: relative;
-    display: block; 
-} */
+.profile {
+    margin: 10px;
+    
+    
+}
 .about {
     margin: 50px;
     padding: 10px;
@@ -190,4 +190,26 @@ form {
 textarea {
     font-size: 20px;
     color: #394867;
+}
+
+#submit {
+ border-style: none;
+ background-color:#F1F6F9 ;
+}
+
+#submit:hover{
+    color: rgb(227, 65, 25);
+    
+}
+/*-----------profile--------*/
+
+/* .info {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+} */
+
+body.dark {
+    background-color: black;
+
 }

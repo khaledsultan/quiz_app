@@ -27,6 +27,15 @@ button.addEventListener("click", () => {
      
 })
 
+// // -------DARK-MOOD-BUTTON--------
+// const dark = document.querySelector('[data-js="darkmood"]');
+//       dark.addEventListener("click", () => {
+//      dark.classList.toggle("dark");
+
+     
+// })
+
+
 // const form = document.querySelector('[data-js="form"]');
 // form.addEventListener("submit", (e) => {
 //     e.preventDefault()

@@ -38,7 +38,50 @@ form.addEventListener("submit", (e) => {
     form.reset( )
 });
 
+
+
+
 // -------COUNTER--------
+
+let  text = document.getElementById('userQuestion');
+let  text_2 =document.getElementById('userAnswer');
+
+
+text.addEventListener("input",(evt) => {
+    characterCounter(evt.target)
+})
+text_2.addEventListener("input",(evt) => {
+    characterCounter(evt.target)
+})
+
+
+function characterCounter(input) {
+    let b = 150 - input.value.length ;
+    
+    // let counterBox = document.querySelector("p");
+    
+    if (input == text) {
+        counterBox = document.getElementById("text_1");
+    } else {
+        counterBox = document.getElementById("text_2");
+    }
+    counterBox.textContent == `${b} characters left`
+    if (counterBox.textContent == `${b} characters left`) {
+        counterBox.textContent ==``;
+    }else{
+        if (b == 1) {
+            counterBox.textContent = `${b} character left`;
+        } else{
+            counterBox.textContent = `${b} characters left`;
+        }
+    }
+    
+    return counterBox
+    
+}
+
+
+
 
 
 // text.addEventListener("input",(evt) =>{
@@ -55,51 +98,7 @@ form.addEventListener("submit", (e) => {
 
 
 //  -------------------------------
-let  text = document.getElementById('userQuestion');
-let  text_2 =document.getElementById('userAnswer');
 
-
-
-
-
-
-text.addEventListener("input",(evt) => {
-    characterCounter(evt.target)
-})
-text_2.addEventListener("input",(evt) => {
-    characterCounter(evt.target)
-})
-
-
-function characterCounter(input) {
-    let b = 150 - input.value.length ;
-
-    // let counterBox = document.querySelector("p");
-
-    if (input == text) {
-        counterBox = document.getElementById("text_1");
-    } else {
-        counterBox = document.getElementById("text_2");
-    }
-    counterBox.textContent == `${b} characters left`
-    if (counterBox.textContent == `${b} characters left`) {
-        counterBox.textContent ==``;
-    }else{
-        if (b == 1) {
-            counterBox.textContent = `${b} character left`;
-             } else{
-             counterBox.textContent = `${b} characters left`;
-             }
-    }
-    
-    return counterBox
-
-}
-    
-    
-    
-    
-    
 
 
 
