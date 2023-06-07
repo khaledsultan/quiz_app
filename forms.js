@@ -74,10 +74,10 @@ text_2.addEventListener("input",(evt) => {
 function characterCounter(input) {
     let b = 150 - input.value.length ;
 
-    let counterBox = document.querySelector("p");
+    // let counterBox = document.querySelector("p");
 
     if (input == text) {
-        counterBox = document.querySelector("p");
+        counterBox = document.getElementById("text_1");
     } else {
         counterBox = document.getElementById("text_2");
     }

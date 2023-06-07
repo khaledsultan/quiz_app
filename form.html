@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <!-- <script src="./script.js" defer></script> -->
     <script src="./forms.js" defer></script>
+    <link rel="icon" href="./favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
@@ -18,12 +25,12 @@
     </header>
     <main>
         <div id="biggerForm">
-            <form data-js="form">
+            <form class="form" data-js="form">
 
                 <label for="userQuestion">Your question</label>
                 <textarea name="userQuestion" id="userQuestion" placeholder="write a question" cols="50" rows="4"
                     required maxlength="150" data-js="userQuestion"></textarea>
-                <p></p>
+                <p id="text_1"></p>
 
                 <label for="userAnswer">Your answer </label>
                 <textarea name="userAnswer" id="userAnswer" placeholder="write your answer " cols="50" rows="4"
@@ -34,7 +41,7 @@
                 <input type="text" name="tag" id="tag" data-js="userTag" />
 
                 <label for="submit"></label>
-                <button type="submit" id="submit" data-js="buttonSubmit">submit</button>
+                <button type="submit" id="submit" data-js="buttonSubmit">Submit</button>
 
 
 
